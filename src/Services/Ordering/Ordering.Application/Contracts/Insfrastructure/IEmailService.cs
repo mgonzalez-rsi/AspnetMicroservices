@@ -5,6 +5,6 @@ namespace Ordering.Application.Contracts.Insfrastructure
 {
     public interface IEmailService
     {
-        Task<bool> SenEmail(Email email);
+        Task<bool> SendEmail(Email email);
     }
 }
